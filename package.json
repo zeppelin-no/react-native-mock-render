@@ -52,7 +52,7 @@
     "react-addons-pure-render-mixin": "16.0.0-alpha.3",
     "react-addons-test-utils": "16.0.0-alpha.3",
     "react-addons-update": "16.0.0-alpha.3",
-    "react-dom": "16.0.0-alpha.12",
+    "react-dom": "16.0.0-alpha.3",
     "react-timer-mixin": "^0.13.3",
     "warning": "^2.1.0"
   },
