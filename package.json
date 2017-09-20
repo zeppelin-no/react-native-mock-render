@@ -6,7 +6,8 @@
   "scripts": {
     "prepublish": "npm run build",
     "test": "npm run lint && npm run mocha",
-    "mocha": "mocha --require test/setup-tests.js --require babel-core/register 'test/**/*.js'",
+    "mocha":
+      "mocha --require test/setup-tests.js --require babel-core/register 'test/**/*.js'",
     "mocha:watch": "npm run test -- --watch",
     "build": "babel src --out-dir build",
     "lint": "eslint 'src/' 'test/' 'mock.js'"
@@ -15,12 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/Root-App/react-native-mock-render.git"
   },
-  "keywords": [
-    "react",
-    "react-native",
-    "mock",
-    "testing"
-  ],
+  "keywords": ["react", "react-native", "mock", "testing"],
   "author": "Root Insurance Co. Dev Team <devs@joinroot.com>",
   "license": "MIT",
   "bugs": {
@@ -57,7 +53,7 @@
     "react-addons-pure-render-mixin": "^15.4.0",
     "react-addons-test-utils": "^15.4.0",
     "react-addons-update": "^15.4.0",
-    "react-dom": "^15.4.0",
+    "react-dom": "16.0.0-alpha.12",
     "react-timer-mixin": "^0.13.3",
     "warning": "^2.1.0"
   },
