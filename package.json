@@ -6,8 +6,7 @@
   "scripts": {
     "prepublish": "npm run build",
     "test": "npm run lint && npm run mocha",
-    "mocha":
-      "mocha --require test/setup-tests.js --require babel-core/register 'test/**/*.js'",
+    "mocha": "mocha --require test/setup-tests.js --require babel-core/register 'test/**/*.js'",
     "mocha:watch": "npm run test -- --watch",
     "build": "babel src --out-dir build",
     "lint": "eslint 'src/' 'test/' 'mock.js'"
@@ -48,11 +47,11 @@
     "keymirror": "^0.1.1",
     "lodash": "^4.15.0",
     "raf": "^3.2.0",
-    "react-addons-create-fragment": "^15.4.0",
-    "react-addons-perf": "^15.4.0",
-    "react-addons-pure-render-mixin": "^15.4.0",
-    "react-addons-test-utils": "^15.4.0",
-    "react-addons-update": "^15.4.0",
+    "react-addons-create-fragment": "16.0.0-alpha.3",
+    "react-addons-perf": "16.0.0-alpha.3",
+    "react-addons-pure-render-mixin": "16.0.0-alpha.3",
+    "react-addons-test-utils": "16.0.0-alpha.3",
+    "react-addons-update": "16.0.0-alpha.3",
     "react-dom": "16.0.0-alpha.12",
     "react-timer-mixin": "^0.13.3",
     "warning": "^2.1.0"
